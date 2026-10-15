@@ -1,0 +1,16 @@
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+*.bak
+*.mdf
+*.ldf
+*.pfx
+*.p12
+*.key
