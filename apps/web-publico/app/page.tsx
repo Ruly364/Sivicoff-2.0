@@ -1,6 +1,7 @@
 
 import AccessCards from "../components/AccessCards";
 import HeroSection from "../components/HeroSection";
+import PublicFooter from "../components/PublicFooter";
 import PublicHeader from "../components/PublicHeader";
 
 export default function Home() {
@@ -9,12 +10,7 @@ export default function Home() {
       <PublicHeader />
       <HeroSection />
       <AccessCards />
-
-      <footer className="border-t border-[#dce4dc] bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-8 text-sm text-[#617267]">
-          SIVICOFF · Sistema de Vigilancia y Control Fitosanitario Forestal
-        </div>
-      </footer>
+      <PublicFooter />
     </main>
   );
 }
